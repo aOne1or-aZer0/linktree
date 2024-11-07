@@ -1,0 +1,91 @@
+
+/* Estilos*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #121213;
+    height: 100vh;
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+    font-family: "Source Code Pro", monospace;
+}
+
+h2{
+    color: #ffffff;
+}
+
+p{
+    color: #ffffff;
+}
+
+
+
+.container{
+    width: 100%;
+    height: auto;
+}
+
+.tarjeta{
+    width: 660px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background-color: #000000;;
+    box-shadow: 2px 2px #6a2ca4;
+    border-color: #6a2ca4;
+    border-radius: 10px;
+    border-style: solid;
+    text-align: center;
+}
+
+.textotachado{
+    text-decoration: line-through;
+}
+
+.links a{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    background: none;
+    color: #ffffff;
+    border-style: solid;
+    border-color: #8f35b6;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    transition: background-color 2s;
+ 
+}
+/* Cambia el fondo del color gradualmente*/
+
+
+a:hover{
+    box-shadow: #8f35b6;
+    background-color: #121213;
+    text-shadow: 0 0 20px #6a2ca4, 0 0 30px #6a2ca4, 0 0 10px #6a2ca4, 0 0 10px;
+    
+}
+
+.gengarascii{
+    color: #a680ca;
+    font-size: 7px;
+    padding-top: 30px;
+    margin-left: 120px;
+    text-shadow: 0 0 20px #6a2ca4, 0 0 30px #6a2ca4, 0 0 10px #6a2ca4, 0 0 10px;
+    margin-right: 90px;
+   
+}
+
+.asciicolor{
+    margin-top: -40px;
+    margin-bottom: -20px;
+    color: #a680ca;
+    text-shadow: 0 0 20px #6a2ca4, 0 0 30px #6a2ca4, 0 0 40px #6a2ca4, 0 0 55px, 0 0 75px #6a2ca4;
+    margin-right: 90px;
+}
+
