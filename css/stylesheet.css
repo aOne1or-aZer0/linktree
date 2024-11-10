@@ -16,15 +16,14 @@ body{
     font-family: "Source Code Pro", monospace;
 }
 
-h2{
+h2,p{
     color: #ffffff;
 }
 
-p{
-    color: #ffffff;
+img{
+    width: 80px;
+    padding: 10px;
 }
-
-
 
 .container{
     width: 100%;
@@ -33,6 +32,7 @@ p{
 
 .tarjeta{
     width: 660px;
+    height: auto;
     margin: 0 auto;
     margin-bottom: 30px;
     background-color: #000000;;
@@ -47,7 +47,7 @@ p{
     text-decoration: line-through;
 }
 
-.links a{
+.links{
     text-align: center;
     text-decoration: none;
     display: block;
@@ -59,18 +59,29 @@ p{
     padding: 20px;
     margin: 20px;
     transition: background-color 2s;
- 
 }
+
+
 /* Cambia el fondo del color gradualmente*/
-
-
-a:hover{
+.links:hover{
     box-shadow: #8f35b6;
     background-color: #121213;
     text-shadow: 0 0 20px #6a2ca4, 0 0 30px #6a2ca4, 0 0 10px #6a2ca4, 0 0 10px;
-    
 }
 
+
+/* Efecto transform: scale() aplicado a los iconos*/
+.iconos img:hover{
+    color: purple ;
+    transform: scale(1.2);
+}
+
+.iconos img{
+    transition: transform 0.3s;
+}
+
+
+/*Colores ASCII art y el efecto Neon/Glow*/
 .gengarascii{
     color: #a680ca;
     font-size: 7px;
@@ -78,7 +89,6 @@ a:hover{
     margin-left: 120px;
     text-shadow: 0 0 20px #6a2ca4, 0 0 30px #6a2ca4, 0 0 10px #6a2ca4, 0 0 10px;
     margin-right: 90px;
-   
 }
 
 .asciicolor{
